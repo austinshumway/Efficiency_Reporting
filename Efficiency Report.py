@@ -22,7 +22,7 @@ ra = pd.concat([billable_projects, billable_projects_completed, ed_direction])
 ra_combined = ra.melt(id_vars='date', col_level=['1/1/2020']:['4/26/2021'])
 
 
-
+#this is good
 today = date.today()
 Month = today.month
 
